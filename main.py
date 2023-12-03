@@ -32,7 +32,7 @@ while game_is_on:
         food.refresh()
         scoreboard.increase_score()
 
-    # Detect collsion with wall
+    # Detect collision with wall
 
     if (
         snake.head.xcor() > 280
